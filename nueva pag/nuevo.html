@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <title>Pop Cooks</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="ssnuevo.css">
+</head>
+<body>
+
+	<!-- BANNER WRAPPER -->
+	<div id="banner-wrapper">
+	  <header>
+	   <div id="header-inner">
+	     <a href="nuevo.html" id="logo">
+		<img src="img/cookierec.jpg" title="hecho en casa" alt="Popi Cooks">  
+	     </a>
+	     <nav>
+                <ul>
+                  <div class="sticky">
+                   <li><a href="#home" class="active">Home</a></li>
+                   <li><a href="#news">News</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <li><a href="#about">About</a></li>
+                  </div>
+                </ul>
+	     </nav>
+           <div class="clearfix-padding"></div>
+	  </header>
+	</div>
+       <!-- SLIDER -->	
+       <div id="slide-wrap">
+          <section class="slider">
+            <ul class="slider1">
+	     <li><img src="img/slider/brownie1.jpg" width=1000px height=600px alt="brownie"></li>
+             <li><img src="img/slider/pasta frola.jpg" width=500px height=600px alt="pasta frola"></li>
+             <li><img src="img/slider/vainilla.jpg" width=1000px height=600px alt="vainilla"></li>
+	    </ul>
+	  </section>  	
+       </div>
+
+<!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider2').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+	
