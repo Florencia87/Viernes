@@ -38,8 +38,6 @@ a {
   text-decoration: none;
 }
 
-
-
 a:hover {
   color: #c3d7df;
 }
@@ -193,7 +191,7 @@ footer {
   float: left;
   width: 60%;
   padding: 4% 4% 2% 0;
-  font-size:
+  font-size: inherit;
 }
 
 .footer-nav {
